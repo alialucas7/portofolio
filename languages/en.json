@@ -29,7 +29,7 @@
         },
         "contact":{
             "contacTitle": "Contact <span>Me</span>",
-            "textoComoContactr": "Let's Team Up! Here below is my email so you can contact me,<br>I will respond as soon as I can during<br>normal business hours (@ UTC+1 time zone)."
-            
+            "textoComoContactr": "Let's Team Up! Here below is my email so you can contact me,<br>I will respond as soon as I can during<br>normal business hours (@ UTC+1 time zone).",
+            "sendMje": "<i class='bx bxs-envelope' style='color:#ffffff' ></i>Send me an Email"
         }
 }        

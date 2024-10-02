@@ -29,7 +29,7 @@
     },
     "contact":{
         "contacTitle": "Trabajemos <span>Juntos</span>",
-        "textoComoContactr": "Hagamos Equipo! Aqui abajo te dejo mi correo para que puedas contactarme,<br> te respondere tan pronto como pueda <br>en horas de trabajo normales (Franja Horaria Peninsular)."
-        
+        "textoComoContactr": "Hagamos Equipo! Aqui abajo te dejo mi correo para que puedas contactarme,<br> te respondere tan pronto como pueda <br>en horas de trabajo normales (Franja Horaria Peninsular).",
+        "sendMje": "<i class='bx bxs-envelope' style='color:#ffffff' ></i>Enviame un mensaje"
     }
 }
