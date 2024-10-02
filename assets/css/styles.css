@@ -1244,10 +1244,16 @@ align-items: center;
     }
     
 }  
-/*
-@media (max-width: 314px){
+
+@media (max-width: 304px){
     .achicar_input_mobile{
-        padding: 45px;
+        padding: 15px;
+    }
+    
+} 
+@media (max-width: 287px){
+    .achicar_input_mobile{
+        padding: 5px;
     }
     
 } 
