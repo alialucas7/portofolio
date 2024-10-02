@@ -1,0 +1,35 @@
+{
+        "home": {
+            "name": "Hi, I'm <span>Lucas Alia</span>",
+            "soy": "Cibersecurity Analyst",
+            "description": "Welcome to my personal website",
+            "btn_about": "About Me",
+            "btn_CV":"Download CV"
+        },
+        "about": {
+            "titlex": "About <span>Me</span>",
+            "subTitle": "Analyst Cibersecurity Jr",
+            "textoDescrip": "Hello!👋 my name is Lucas, a passionate about technology<br>with a solid background in the field of cybersecurity and network analysis.<br>I'm from Argentina, country of mate and Leo Messi:)<br><samp class='hidden-text'>Throughout my career, I have developed a deep understanding<br>of digital threats and innovative solutions.<br>In my spare time, I enjoy participating in hackathons<br>and contributing to open source projects.<br>¡Thanks for visiting my website! Feel free to contact me if<br>you have any questions or would like to collaborate on a project.<br></samp><button class='read-more' onclick='toggleText()'>Leer más</button>",
+            "btnMas": "Read More"
+        },
+        "escuela":{
+            "escTtle": "Mi <span>Journery</span>",
+            "edcTtle": "Education",
+            "tituloUNNE1": "Degree in information System - National Northeastern University",
+            "ubiUNNE1": "Faculty of Exact Sciences",
+            "tituloUNNE2": "Systems Analyst - National Northeastern University",
+            "ubiUNNE2": "Faculty of Exact Sciences",
+            "tituloIFD": "IT support technician - Teacher Training Institute",
+            "tituloWork": "Jobs",
+            "trabajo1": "In the vagance",
+            "textTrabajo": "ble ble ble"
+        },
+        "portofolio":{
+            "recientes": "Recent Works"
+        },
+        "contact":{
+            "contacTitle": "Contact <span>Me</span>",
+            "textoComoContactr": "Let's Team Up! Here below is my email so you can contact me,<br>I will respond as soon as I can during<br>normal business hours (@ UTC+1 time zone)."
+            
+        }
+}        

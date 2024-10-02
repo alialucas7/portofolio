@@ -1,0 +1,35 @@
+{
+    "home": {
+        "name": "Hola, me llamo<br> Lucas y soy",
+        "soy": "Analista de Ciberseguridad",
+        "description": "Bienvenido chamigo a mi sitio web personal",
+        "btn_about": "Sobre Mi",
+        "btn_CV":"Descarga mi<br>CV"
+    },
+    "about": {
+        "titlex": "Sobre <span>Mi</span>",
+        "subTitle": "Analista de Ciberseguridad Junior",
+        "textoDescrip": "Hola!👋 mi nombre es Lucas, un apasionado de la tecnología <br>con una sólida formación en el campo de la<br> ciberseguridad y el análisis de redes.<br>Soy de Argentina, tierra del mate y de Leo Messi:)<br><samp class='hidden-text'>A lo largo de mi carrera, he desarrollado una profunda comprensión<br>de las amenazas digitales y soluciones innovadoras.<br> En mi tiempo libre, disfruto de participar en hackathons <br>y contribuir a proyectos de código abierto<br>¡Gracias por visitar mi sitio web!<br>No dudes en ponerte en contacto conmigo<br>si tienes alguna pregunta o deseas<br>que colaboraremos en un proyecto.<br></samp><button class='read-more' onclick='toggleText()'>Leer más</button>",
+        "btnMas": "Leer Mas"
+    },
+    "escuela":{
+        "escTtle": "Mi <span>Formacion</span>",
+        "edcTtle": "Academica",
+        "tituloUNNE1": "Licenciado en Sistemas de Informacion - Universidad Nacional del Nordeste",
+        "ubiUNNE1": "Facultad de Ciencias Exactas",
+        "tituloUNNE2": "Analista de Sistemas - Universidad Nacional del Nordeste",
+        "ubiUNNE2": "Facultad de Ciencias Exactas",
+        "tituloIFD": "Tecnico en Soporte Informatico - Instituto de Formacion Docente",
+        "tituloWork": "Laboral",
+        "trabajo1": "En la vaganciaa",
+        "textTrabajo": "bla bla bla"
+    },
+    "portofolio":{
+        "recientes": "Trabajos Recientes"
+    },
+    "contact":{
+        "contacTitle": "Trabajemos <span>Juntos</span>",
+        "textoComoContactr": "Hagamos Equipo! Aqui abajo te dejo mi correo para que puedas contactarme,<br> te respondere tan pronto como pueda <br>en horas de trabajo normales (Franja Horaria Peninsular)."
+        
+    }
+}

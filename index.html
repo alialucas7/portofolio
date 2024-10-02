@@ -1,0 +1,429 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    
+        <!--=============== CSS ===============-->
+        <link rel="stylesheet" href="assets/css/styles.css">
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+        <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+        <!--link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"/-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+        <title>Portofolio Personal | Lucas</title>
+</head>
+
+<body>
+    <header class="header">
+        <a href="#" class="logo">Lucas. <span class="animate"></span> </a>
+        
+        <!-- boton del menu burguer-->
+        <div class="bx bx-menu" id="menu-icon"><span class="animate"></span></div>
+
+        <nav class="navbar">
+            
+            <ul class="flag-list" id="flags">
+                <li>
+
+                        <a href="#lang">Languages  <i class="fas fa-caret-down"></i></a>  
+                        <div class="dropdown__menu">
+                            <ul>
+                                <li data-lenguaje="es"><a><span class="flag">🇪🇸</span>Español</a></li>
+                                <li data-lenguaje="en"><a><span class="flag">🇺🇸</span>English</a></li>
+                            </ul>
+                        </div>
+
+                </li>
+                    
+            </ul>   
+                 
+                <a href="#home" class="active">Home</a>
+                <a href="#about">About</a>
+                <a href="#education">Education</a>
+                <a href="#portofolio">Portofolio</a>
+                <a href="#contact">Contacto</a>
+    
+                <span class="active-nav"></span>
+                <span class="animate"></span>
+            
+            
+            
+        </nav>
+    </header>
+
+    <section class="home show-animate" id="home">
+        <div class="home-content">
+            <h1 data-section="home" data-value="name">Hi, I'm <span>Lucas Alia</span><span class="animate"></span></h1>
+            <div class="text-animate">
+                <h3 data-section="home" data-value="soy">Cibersecurity Analyst</h3>
+                <span class="animate" ></span>
+            </div>
+            <p data-section="home" data-value="description">Welcome to my personal website<span class="animate" style="--i:4;"></span></p>
+             
+            
+                    
+            <div class="btn-box">
+                <a class="btnfos-1" href="#about" data-section="home" data-value="btn_about">
+                    <svg>
+                                <rect x="0" y="0" fill="none" width="100%" height="100%"/>
+                    </svg>         
+                About Me</a>
+                <a class="btnfos-1" href="https://drive.google.com/file/d/1th6q4nGwnP0UC0U7aFPJqwL5xAwQfdw3/view?usp=sharing" data-section="home" data-value="btn_CV">
+                    <svg>
+                                    <rect x="0" y="0" fill="none" width="100%" height="100%"/>
+                    </svg>         
+                download cv</a>
+                
+            </div> 
+                      
+                      
+                    
+                    
+            
+            <!--div class="btn-box">
+                <a href="#about" data-section="home" data-value="btn_about">About Me</a>
+                <a href="https://drive.google.com/file/d/1th6q4nGwnP0UC0U7aFPJqwL5xAwQfdw3/view?usp=sharing" data-section="home" data-value="btn_CV">Download CV</a>
+                <!--span class="animate" style="--i:5;"></span-->
+            <!--/div-->  
+        </div>
+        <!-- botones redes sociales (3)-->
+        <div class="home-sci">
+                <a href="https://linkedin.com/in/alialucas7"><i class='bx bxl-linkedin-square'></i></a>
+                <a href="https://github.com/alialucas7"><i class='bx bxl-github'></i></a>    
+                <a href="#"><i class='bx bxl-stack-overflow'></i></a>                 
+        </div>
+    </section>
+
+    <!-------------------- seccion de about ------------------------------>
+    <div class="about tamanio" id="about">
+
+        <h2 class="heading" data-section="about" data-value="titlex">About <span>Me</span></h2>
+        <div class="about-img">
+            <img src="assets\img\about5.jpg" alt="">
+            <span class="circle-spin"></span>
+        </div>
+
+        <div class="about-content">
+            <h3 data-section="about" data-value="subTitle">Cibersecurity Analyst Jr</h3>
+            <p class="textoContac" data-section="about" data-value="textoDescrip">
+                    Hello!👋 my name is Lucas, a passionate about technology with a solid background <br>in the field of cybersecurity and network analysis. 
+                    <br>I'm from Argentina, country of mate and Leo Messi:)<br>
+                    <samp class='hidden-text'>
+                        Throughout my career, I have developed a deep understanding<br>of digital threats and innovative solutions.<br>
+                       
+                        In my spare time, I enjoy participating in hackathons<br>and contributing to open source projects.<br>
+                                
+                        ¡Thanks for visiting my website! Feel free to contact me if<br>you have any questions or would like to collaborate on a project.<br>
+                    </samp> 
+                    <button class='read-more' onclick='toggleText()'>Leer mas</button>
+                     
+            
+            </p>
+                <!--div class="btn-box btns">
+                    <a href="#" class="btn" data-section="about" data-value="btnMas">Read More</a>
+                </div-->
+        </div>
+
+    </div>
+
+     <!--------------------seccion de escuela ---------------------------->
+     <section class="education" id="education">
+        <h2 class="heading" data-section="escuela" data-value="escTtle">My <span>Journey</span></h2>
+        
+        <div class="education-row">
+            <div class="education-column">
+                <h3 class="title" data-section="escuela" data-value="edcTtle">Education</h3>
+
+                <div class="education-box">
+                    <div class="education-content">
+                        <div class="content">
+                            <div class="año"><i class="bx bxs-calendar"></i>2022-2024 | <!--i class='bx bx-current-location'></i--> Argentina - Corrientes</div>
+                            <h3 data-section="escuela" data-value="tituloUNNE1">Degree in information System - National Northeastern University</h3>
+                            
+                            <p data-section="escuela" data-value="ubiUNNE1"><i class='bx bx-building-house' style='color:#ffffff' ></i> Faculty of Exact Sciences</p>
+                        </div>
+
+                    </div>
+
+                     <div class="education-content">
+                        <div class="content">
+                            <div class="año"><i class="bx bxs-calendar"></i>2018-2022 | Argentina - Corrientes</div>
+                            <h3 data-section="escuela" data-value="tituloUNNE2">Systems Analyst - National Northeastern <br>University</h3>
+                            <p data-section="escuela" data-value="ubiUNNE2"> <i class='bx bx-building-house' style='color:#ffffff' ></i> Faculty of Exact Sciences</p>
+                            <!--p>Intermediate undergraduate degree awarded by the bachelor's degree in systems in the third year of the degree program
+                            </p-->
+                        </div>
+
+                    </div>
+
+                     <div class="education-content">
+                        <div class="content">
+                            <div class="año"><i class="bx bxs-calendar"></i>2016-2018 | Argentina - Corrientes</div>
+                            <h3 data-section="escuela" data-value="tituloIFD">IT support technician - Teacher Training Institute</h3>
+                            <p>
+                            </p>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+
+              <div class="education-column">
+                <h3 class="title" data-section="escuela" data-value="tituloWork">Jobs</h3>
+
+                <div class="education-box">
+                    <div class="education-content">
+                        <div class="content">
+                            <div class="año"><i class="bx bxs-calendar"></i>2017-2018</div>
+                            <h3 data-section="escuela" data-value="trabajo1">Master Orange - University</h3>
+                            <p data-section="escuela" data-value="textTrabajo">lorem impuns ¿Qué significa el Lorem Ipsum? jghtvytcfytcytcytcytct</p>
+                       </div>
+
+                    </div>
+
+                     <div class="education-content">
+                        <div class="content">
+                            <div class="año"><i class="bx bxs-calendar"></i>2017-2018</div>
+                            <h3>Master Orange - University</h3>
+                            <p>lorem impuns dfgfdg</p>
+                        </div>
+
+                    </div>
+
+                     <div class="education-content">
+                        <div class="content">
+                            <div class="año"><i class="bx bxs-calendar"></i>2017-2018</div>
+                            <h3>Master Orange - University</h3>
+                            <p>lorem impuns dfgfdg</p>
+                        </div>
+
+                    </div>
+                    
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+     <!--------------------seccion de portofolio-------------------------->
+     <section class="portofolio" id="portofolio">
+       <div>  
+         <h2 class="heading">My <span>Portofolio</span></h2>
+         <h3 class="section_title" data-section ="portofolio" data-value="recientes">Recent Works</h3>
+
+         <!--div class="portofolio_filters">
+            <button type="button" class="portofolio_items active-work" data-filter="all">All</button>
+            <button type="button" class="portofolio_items" data-filter=".web">Web</button>
+            <button type="button" class="portofolio_items" data-filter=".desktop">Desktop</button>
+         </div-->
+      
+
+         <div class="portofolio_container">
+            <!-- card 1 -->
+            <div class="portofolio_box web">
+                    <img src="assets/img/work1.jpg" alt="" class="">
+                    <div class="portofolio-layer">
+                        <h4>Web Design</h4>
+                        <p>Lorem impsun dolor ke wea pa</p>
+                    <a href="#" class="portofolio_buton">
+                        Demo <i class='portofolio_icon bx bxs-chevrons-right'></i>
+                    </a>
+                    <a class="portofolio_cajaL">
+                     <i class='portofolio_lenguajes bx bxl-flask'></i>
+                     <i class='portofolio_lenguajes bx bxl-css3'></i>
+                     <i class='portofolio_lenguajes bx bxl-postgresql'></i>
+                     <i class='portofolio_lenguajes bx bxl-docker'></i>
+                     <i class='portofolio_lenguajes bx bxl-php'></i>
+                     <i class='portofolio_lenguajes bx bxl-bootstrap'></i>
+                    </a>    
+                    </div>
+            </div>
+
+            <div class="portofolio_box web">
+                    <img src="assets/img/work8.png" alt="" class="">
+                    <div class="portofolio-layer">
+                        <h4>Work Environment</h4>
+                        <p>This is my configuration, which I used to customized my own window manager whith the C languaje and working environment in Archlinux for ethical pentesting practices</p>
+                    <a href="https://github.com/alialucas7/chadwm" class="portofolio_buton">
+                        Demo <i class='portofolio_icon bx bxs-chevrons-right'></i>
+                    </a>
+                    <a class="portofolio_cajaL">
+                     <i class='portofolio_lenguajes bx bx-code-alt'></i>
+                    </a> 
+                    </div>
+            </div>
+
+            <div class="portofolio_box desktop">
+                    <img src="assets/img/work7.png" alt="" class="">
+                    <div class="portofolio-layer">
+                        <h4>Car Website</h4>
+                        <p>This is a sales demo of a car dealership that I made to practice my skills</p>
+                    <a href="#" class="portofolio_buton">
+                        Demo <i class='portofolio_icon bx bxs-chevrons-right'></i>
+                    </a>
+                    <a class="portofolio_cajaL">
+                            <i class='portofolio_lenguajes bx bxl-html5'></i>
+                            <i class='portofolio_lenguajes bx bxl-javascript'></i>
+                            <i class='portofolio_lenguajes bx bxl-css3'></i>
+                    </a> 
+                    </div>
+            </div>
+
+            <div class="portofolio_box desktop">
+                    <img src="assets/img/work5.png" alt="" class="">
+                    <div class="portofolio-layer">
+                        <h4>Portofolio</h4>
+                        <p>This is my website that you are viewing right now</p>
+                    
+                    <a class="portofolio_cajaL">
+                     <i class='portofolio_lenguajes bx bxl-html5'></i>
+                     <i class='portofolio_lenguajes bx bxl-javascript'></i>
+                     <i class='portofolio_lenguajes bx bxl-css3'></i>
+                    </a> 
+                    </div>
+            </div>
+
+         </div>          
+
+            <!--2--
+            <div class="portofolio_card mix web">
+                    <img src="C:/Users/alialucas7/Pictures/portafolio/assets/img/work2.jpg" alt="" class="portofolio_img">
+                    <h3 class="portofolio_title">e-Commer</h3>
+
+                    <a href="#" class="portofolio_buton">
+                        Demo <i class='portofolio_icon bx bxs-chevrons-right'></i>
+                    </a>
+            </div>
+
+            <!--3--
+            <div class="portofolio_card mix desktop">
+                   <img src="C:/Users/alialucas7/Pictures/portafolio/assets/img/work3.jpg" alt="" class="portofolio_img">
+                    <h3 class="portofolio_title">Desktop</h3>
+
+                    <a href="#" class="portofolio_buton">
+                        Demo <i class='portofolio_icon bx bxs-chevrons-right'></i>
+                    </a>
+            </div>
+
+         </div-->
+       </div>  
+     </section>
+
+     <!--------------------seccion de contacto---------------------------->
+    
+     <!--section class="contact section" id="contact"--> 
+         <h2 class="heading" data-section="contact" data-value="contacTitle">Contact <span>Me</span></h2>
+    <div class="" id="contact">
+            <div class="contact_container ">
+                <p class="textoContac" data-section="contact" data-value="textoComoContactr">Let's Team Up! Here below is my email so you can contact me,<br>
+                        I will respond as soon as I can during <br> normal business hours (@ UTC+1 time zone).
+                </p>
+                   <!--h3 class="contact_title">Talk to me</h3-->
+        
+                 <!--div class=""><!--contact_info (es lo q estaba en la clase) era solo para disp pequeño igual jeje-->
+                <div class="achicar_input_mobile">     
+                        <p class="miLabel"><i class='bx bxs-envelope' style='color:#ffffff' ></i> Send me an Email</p>
+                        <div class="copy_text">
+                                <input type="text" class="text"
+                                value ="lukitis2@gmail.com">
+                                <button>
+                                <i class="fa fa-clone"></i> 
+                                </button>
+                        </div>
+                </div>    
+                
+            </div>
+    </div>
+                     <!--div class="contact_card">
+                         <i class='bx bx-mail-send contact_card_icon'></i>
+                         <h3 class="contact_card-title">Email</h3>
+                         <span class="contact_card-data">user@gmail.com</span>
+
+                         <a target="_blank" class="contact_button">
+                            Write Me <i class='bx bx-right-arrow-alt contact_button_icon'></i>  
+                         </a>    
+                     </div>
+
+                     <div class="contact_card">
+                         <i class='bx bxl-whatsapp contact_card_icon'></i>
+                         <h3 class="contact_card-title">WhatsApp</h3>
+                         <span class="contact_card-data">user@gmail.com</span>
+
+                         <a target="_blank" class="contact_button">
+                            Write Me <i class='bx bx-right-arrow-alt contact_button_icon'></i>  
+                         </a>    
+                     </div> 
+
+                     <!--div class="contact_card">
+                         <i class='bx bx-mail-send contact_card_icon'></i>
+                         <h3 class="contact_card-title">Email</h3>
+                         <span class="contact_card-data">user@gmail.com</span>
+
+                         <a target="_blank" class="contact_button">
+                            Write Me <i class='bx bx-right-arrow-alt contact_button_icon'></i>  
+                         </a>    
+                     </div-->     
+                     
+             
+
+             <!--div class="contact_content">
+                 <h3 class="contact_title">Write me your proyect</h3>
+             </div--> 
+             
+     <!--/section-->    
+   
+
+
+
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ <!-- footer papa -->
+ <footer class="footer">
+    <div class="footer-txt">
+        <p>Copygright &copy; 2024 | Alia Lucas Emanuel</p>
+    </div>
+    <!-- boton de subir (flechita)-->
+    <div class="footer-icon">
+        <a href="#"><i class='bx bx-up-arrow-alt'></i></a>
+    </div>
+ </footer>
+
+<script src="assets\js\scripts.js"></script>    
+<script src="assets\js\mixitup.min.js"></script>    
+<!--script src="assets\js\swiper-bundle.min.js"></script-->    
+<script>
+       var products = document.querySelector('.portofolio_container');
+        var mixer = mixitup(products);
+</script>
+</body>

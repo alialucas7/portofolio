@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Leer más</title>
+    <style>
+        .hidden-text {
+            display: none;
+        }
+
+        .read-more {
+            color: blue;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <p>
+        Este es un párrafo con algo de texto introductorio.
+        <span class="hidden-text">Este es el texto adicional que se muestra cuando se hace clic en "Leer más".</span>
+        <span class="read-more" onclick="toggleText()">Leer más</span>
+    </p>
+
+    <script>
+        function toggleText() {
+            const hiddenText = document.querySelector('.hidden-text');
+            const readMore = document.querySelector('.read-more');
+
+            if (hiddenText.style.display === 'none') {
+                hiddenText.style.display = 'inline';
+                readMore.textContent = 'Leer menos';
+            } else {
+                hiddenText.style.display = 'none';
+                readMore.textContent = 'Leer más';
+            }
+        }
+    </script>
+</body>
+</html>

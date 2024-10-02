@@ -1,0 +1,25 @@
+¡Hola! Soy [Tu Nombre], un apasionado profesional de la tecnología con una sólida formación en el campo de la ciberseguridad y
+ el análisis de redes. A lo largo de mi carrera, he desarrollado una profunda comprensión de las amenazas digitales y 
+ las soluciones innovadoras para proteger los activos de información en entornos dinámicos.
+Poseo una licenciatura en [Tu Titulación] por la [Nombre de la Universidad] y he completado numerosos cursos y 
+certificaciones en ciberseguridad y análisis de datos. 
+En mi tiempo libre, disfruto de estar al día con las últimas tendencias en tecnología y ciberseguridad, 
+participar en hackathons y contribuir a proyectos de código abierto
+¡Gracias por visitar mi portafolio! No dudes en ponerte en contacto conmigo 
+si tienes alguna pregunta o deseas colaborar en un proyecto.
+
+Hola! mi nombre es Lucas, un apasionado profesional de la tecnología con una sólida formación en el campo de la ciberseguridad y
+ el análisis de redes. Soy de Argentina, tierra del mate y de Leo Messi:)<br>
+ A lo largo de mi carrera, he desarrollado una profunda comprensión de las amenazas digitales y soluciones innovadoras. 
+ Poseo una licenciatura en Sistemas de Informacion por la UNNE y he completado numerosos cursos y 
+certificaciones en ciberseguridad.
+
+En mi tiempo libre, disfruto de estar al día con las últimas tendencias en tecnología y ciberseguridad, 
+participar en hackathons y contribuir a proyectos de código abierto.
+¡Gracias por visitar mi sitio web! No dudes en ponerte en contacto conmigo 
+si tienes alguna pregunta o deseas colaborar en un proyecto.
+
+
+
+<samp class='hidden-text'>Throughout my career, I have developed a deep understanding<br>of digital threats and innovative solutions.<br>In my spare time, I enjoy participating in hackathons<br>and contributing to open source projects.<br>¡Thanks for visiting my website! Feel free to contact me if<br>you have any questions or would like to collaborate on a project.<br></samp> 
+<samp class='hidden-text'>A lo largo de mi carrera, he desarrollado una profunda comprensión<br>de las amenazas digitales y soluciones innovadoras.<br>En mi tiempo libre, disfruto de participar en hackathons<br>y contribuir a proyectos de código abierto<br>¡Gracias por visitar mi sitio web! No dudes en ponerte en contacto conmigo<br>si tienes alguna pregunta o deseas colaborar en un proyecto.<br></samp>
