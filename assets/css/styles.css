@@ -1240,16 +1240,18 @@ align-items: center;
 }    
 @media (max-width: 320px){
     .achicar_input_mobile{
-        padding: 35px;
+        padding: 22px;
     }
     
 }  
+/*
 @media (max-width: 314px){
     .achicar_input_mobile{
         padding: 45px;
     }
     
 } 
+*/
 /*Keyframes | animaciones*/
 @keyframes homeBgText{
     0%,
