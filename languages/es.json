@@ -25,7 +25,12 @@
         "textTrabajo": "bla bla bla"
     },
     "portofolio":{
-        "recientes": "Trabajos Recientes"
+        "recientes": "Trabajos Recientes",
+        "titleproject1": "Entorno de Trabajo",
+        "project1": "Esta es mi configuaracion en Archlinux, donde personalice mi propio gestor de ventanas en el lenguaje C para practicas ethicas de pentesting",
+        "titleproject2": "Sitio de Autos Electronicos",
+        "project2": "Este proyecto es un comercio electronico de una concesinaria de autos, la cual fue hecha para practicar mis habilidades del front",
+        "project3": "Este es mi sitio web que estas viendo ahora"
     },
     "contact":{
         "contacTitle": "Trabajemos <span>Juntos</span>",

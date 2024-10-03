@@ -25,7 +25,12 @@
             "textTrabajo": "ble ble ble"
         },
         "portofolio":{
-            "recientes": "Recent Works"
+            "recientes": "Recent Works",
+            "titleproject1": "Work Environment",
+            "project1": "This is my configuration, which I used to customized my own window manager whith the C languaje and working environment in Archlinux for ethical pentesting practices",
+            "titleproject2": "Car Website",
+            "project2": "This is a sales demo of a car dealership that I made to practice my skills",
+            "project3": "This is my website that you are viewing right now"
         },
         "contact":{
             "contacTitle": "Contact <span>Me</span>",
