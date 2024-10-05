@@ -362,10 +362,12 @@ section{
 .tamanio{
     min-height: 110vh;
 }
-.hidden-text{
+.hide_text{
     display: none;
 }
-
+.show_text{
+    display: block;
+}
 /*boton leer mas*/
 .read-more {
     color: var(--text-color);

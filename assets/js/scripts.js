@@ -80,6 +80,7 @@ copyText.querySelector("button").addEventListener("click",function(){
     },2500);
 });
 
+/*
 
 //funcion acordeon de texto para about
 function toggleText() {
@@ -94,11 +95,19 @@ function toggleText() {
             readMore.textContent = 'Read more';
         }
 }
+*/
+let hide_text_Btn = document.getElementById('hide_text_Btn');
+let hide_texto = document.getElementById('hide_texto'); 
 
+hide_text_Btn.addEventListener('click', toggleText);
+function toggleText() {
+    hide_texto.classList.toggle('show_text');
 
-
-
-
+    if (hide_texto.classList.contains('show_text')){
+        hide_text_Btn.textContent = 'Read Less';
+    }
+    else {hide_text_Btn.textContent = 'Read More';}
+}
 //mix up portofolio
 
 /* 
